@@ -1,8 +1,8 @@
 (async function (CAFE24API) {
-	console.log({ CAFE24API });
 	var script = document.createElement('script');
+	script.type = 'module';
 	script.onload = function () {
-			//do stuff with the script
+			console.log('podiz script start! // podiz.co.kr')
 	};
 	script.src = 'https://cdn.jsdelivr.net/gh/webkers/podiz-cdn@main/test/0627-1834/index.js';
 	
