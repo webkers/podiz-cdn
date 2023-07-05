@@ -5,7 +5,7 @@
 	script.onload = function () {
 			console.log('podiz script start! // podiz.co.kr')
 	};
-	script.src = 'https://cdn.jsdelivr.net/gh/webkers/podiz-cdn@main/test/0630-1737/index.js';
+	script.src = 'https://cdn.jsdelivr.net/gh/webkers/podiz-cdn@main/test/0705-1329/index.js';
 	
 	document.head.appendChild(script); //or something of the likes
 
