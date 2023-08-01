@@ -5,6 +5,15 @@
 	script.onload = function () {
 			console.log('podiz script start! // podiz.co.kr')
 	};
+	script.src = 'http://127.0.0.1:4173/assets/index.css';
+	
+	document.head.appendChild(script); //or something of the likes
+	
+	var script = document.createElement('script');
+	script.type = 'module';
+	script.onload = function () {
+			console.log('podiz script start! // podiz.co.kr')
+	};
 	script.src = 'http://127.0.0.1:4173/assets/index.js';
 	
 	document.head.appendChild(script); //or something of the likes
