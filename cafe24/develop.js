@@ -1,14 +1,12 @@
 (async function (CAFE24API) {
 
-	var script = document.createElement('script');
-	script.type = 'module';
-	script.onload = function () {
-			console.log('podiz script start! // podiz.co.kr')
-	};
-	script.src = 'http://127.0.0.1:4173/assets/index.css';
-	
-	document.head.appendChild(script); //or something of the likes
-	
+  var link = document.createElement( "link" );
+	link.href = 'http://127.0.0.1:4173/assets/index.css';
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	link.media = "screen,print";
+	document.getElementsByTagName( "head" )[0].appendChild( link );
+  
 	var script = document.createElement('script');
 	script.type = 'module';
 	script.onload = function () {
