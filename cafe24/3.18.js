@@ -2,7 +2,7 @@
     if (document.getElementById("podiz-app")) {
       var link = document.createElement("link");
       link.href =
-        "https://cdn.jsdelivr.net/gh/webkers/podiz-cdn@main/3.18/index.css";
+        "https://cdn.statically.io/gh/webkers/podiz-cdn@main/3.19/index.css";
       link.type = "text/css";
       link.rel = "stylesheet";
       link.media = "screen,print";
@@ -14,7 +14,7 @@
         console.log("podiz script start! // podiz.co.kr");
       };
       script.src =
-        "https://cdn.jsdelivr.net/gh/webkers/podiz-cdn@main/3.18/index.js";
+        "https://cdn.statically.io/gh/webkers/podiz-cdn@main/3.19/index.js";
 
       document.head.appendChild(script); //or something of the likes
     }  
