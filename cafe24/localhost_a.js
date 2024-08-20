@@ -8,7 +8,7 @@
     }
 
     var link = document.createElement("link");
-    link.href = "https://cdn.jsdelivr.net/gh/webkers/podiz-cdn@main/a1.00/index.css";
+    link.href = "http://localhost:4173/assets/index.css";
     link.type = "text/css";
     link.rel = "stylesheet";
     link.media = "screen,print";
@@ -19,7 +19,7 @@
     script.onload = function () {
         console.log("podiz script start! // podiz.co.kr");
     };
-    script.src = "https://cdn.jsdelivr.net/gh/webkers/podiz-cdn@main/a1.00/index.js";
+    script.src = "http://localhost:4173/assets/index.js";
 
     document.head.appendChild(script);
 })(
